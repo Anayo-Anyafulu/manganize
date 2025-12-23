@@ -1,0 +1,31 @@
+# Example manganize configuration file
+
+[general]
+verbose = false
+
+[detection]
+# Minimum panel size in pixels (width * height)
+min_panel_size = 2500
+
+[processing]
+# Target aspect ratio (width:height)
+aspect_ratio = "9:16"
+
+# Upscaling factor (1-4)
+# 1 = no upscale, 2 = 2x, 3 = 3x, 4 = 4x
+upscale_factor = 2
+
+# Number of threads for parallel processing
+# 0 = auto-detect (recommended)
+threads = 0
+
+[ai]
+# Ollama API endpoint
+ollama_url = "http://localhost:11434"
+
+# Ollama model to use for reading unit grouping
+ollama_model = "llama3.2"
+
+[output]
+# Default output filename if not specified
+default_output = "output.pdf"

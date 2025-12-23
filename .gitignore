@@ -1,0 +1,9 @@
+target/
+Cargo.lock
+*.pdf
+*.jpg
+*.png
+*.webp
+.DS_Store
+.vscode/
+.idea/
